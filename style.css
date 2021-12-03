@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    width: 20px;
+    margin: 50px auto;
+    filter: contrast(150%) brightness(110%);
+}
+
+.tiktok {
+    position: absolute;
+    width: 25px;
+    height: 110px;
+    z-index: 1;
+    background: #24f6f0;
+}
+
+.tiktok::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 25px solid #24f6f0;
+    border-top: 25px solid transparent;
+    border-radius: 50%;
+    top: 60px;
+    left: -75px;
+    transform: rotate(45deg);
+}
+
+.tiktok::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 25px solid #24f6f0;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-radius: 50%;
+    mix-blend-mode: lighten;
+    top: -65px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.red {
+    left: 8px;
+    top: 8px;
+    background: #fe2d52;
+    z-index: 100;
+    mix-blend-mode: lighten;
+    animation: moveLeft 3s 1;
+}
+
+.red::before{
+    border: 25px solid #fe2d52;
+    border-top: 25px solid transparent;
+}
+.red::after{
+    border: 25px solid #fe2d52;
+    border-right: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-left: 25px solid transparent;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translate(100px);
+  }
+
+  50% {
+    transform: translate(0px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
