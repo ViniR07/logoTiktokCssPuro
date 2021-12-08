@@ -12,21 +12,18 @@
 
 ## 🔨 Funcionalidades do Projeto
 
-- `Funcionalidade 1`: descrição
-- `Funcionalidade 2`: descrição
-- `Funcionalidade 3`: descrição
-- `Funcionalidade 4`: descrição
+- `Pseudo-elementos`: Pratique o uso de pseudo-elementos
+- `Formas`: Relembre como criar formas geométricas com CSS
 
 ## ✔️ Tecnologias utilizadas
 
-- `Python`
-- `PHP`
-- `JavaScript`
+- `CSS`
+- `HTML`
 
 ## ⚠️ Pré-requisitos
 
-- `Node`
-- `React JS`
+- `HTML`
+- `CSS`
 
 ## Como rodar a aplicação ⏯️
 
