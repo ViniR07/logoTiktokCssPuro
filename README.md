@@ -30,8 +30,8 @@
 
 ## Como rodar a aplicação ⏯️
 
-Digite isso no terminal
+Acesse o site e veja o resultado
 
 ```
-git clone https://github.com/seu-projeto/certificate-generator
+https://vinir07.github.io/logoTiktokCssPuro/
 ```
