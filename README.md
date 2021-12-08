@@ -22,3 +22,16 @@
 - `Python`
 - `PHP`
 - `JavaScript`
+
+## ⚠️ Pré-requisitos
+
+- `Node`
+- `React JS`
+
+## Como rodar a aplicação ⏯️
+
+Digite isso no terminal
+
+```
+git clone https://github.com/seu-projeto/certificate-generator
+```
